@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "lato", sans-serif;
+}
+
+@media (max-width: 500px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.chilllogo {
+  width: 94px;
+  height: 30px;
+}
+
+label {
+  color: aliceblue;
+}
+a {
+  color: #4facfe;
+  text-align: center;
+}
+h3 {
+  color: aliceblue;
+  text-align: center;
+}
+p {
+  color: aliceblue;
+  text-align: left;
+}
+.pg {
+  text-align: center;
+}
+
+body {
+  background: url(/Image/baground.jpg);
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  background-color: rgba(0, 0, 0, 0, 84);
+  border-radius: 8px;
+  padding: 40px 30px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  max-width: 400px;
+}
+
+.container h2 {
+  text-align: center;
+  margin-bottom: 24px;
+  color: #333;
+}
+
+.container input[type="text"],
+.container input[type="password"] {
+  width: 100%;
+  padding: 12px 15px;
+  margin: 10px 0;
+  border: 1px solid #deeee9;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+.container input[type="text"]:focus,
+.container input[type="password"]:focus {
+  border-color: #4facfe;
+  outline: none;
+}
+
+.container button {
+  width: 100%;
+  padding: 12px;
+  background: #4facfe;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+.container button:hover {
+  background: #00c6ff;
+}
+
+.container .footer {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 0.9em;
+  color: #777;
+}
